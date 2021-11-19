@@ -203,7 +203,7 @@ blog-image-container {
 }
 
 .dashain-festival-family {
-   text-align: center;
+    
 }
 
 /*
@@ -225,16 +225,12 @@ About Section
 .about-image {
     height: 300px;
     width: 200px;
-    background-size: cover;
 }
 
 .saayan {
     display: block;
-    margin-left:auto;
-    margin-right: auto;
-    margin: auto;
     width: 300px;
-
+    text-align: center;
 }
 
 
@@ -243,9 +239,6 @@ About Section
 }
 
 .about-text {
-    height: auto;
-    padding: 40px;
-    width: 40%;
     font-size: 1rem;
     margin-right: 100px;
     position: absolute;
