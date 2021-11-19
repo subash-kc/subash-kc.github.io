@@ -124,6 +124,66 @@ li a{
     color: red;
 }
 
+blog-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-container {
+    margin: 10%;
+    width: 80%;
+    height: auto;
+}
+
+.blog-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+
+.mt-everest {
+    border: 1px solid; 
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.img-mt-everest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-mt-everest {
+    padding: 20px;
+}
+
+.living-goddess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kumari {
+    width: 300px;
+    height: auto
+}
+
+.dashain-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+}
+
+.dashain-with-family {
+    margin: 20px;
+}
+
 /*
 About Section
 */
@@ -137,8 +197,6 @@ About Section
 
 .about-section {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-flow: wrap;
 }
 
@@ -149,15 +207,23 @@ About Section
 }
 
 .saayan {
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
     border: 1px solid;
     border-radius: 50%;  
     width: 300px;
     height: 300px;
-    position: relative;
+
+}
+
+.saayan-span img{
+    text-align: center;
 }
 
 .about-text {
     height: auto;
+    padding: 40px;
     width: 40%;
     font-size: 1rem;
     margin-right: 100px;
