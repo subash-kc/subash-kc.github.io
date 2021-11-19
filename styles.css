@@ -146,10 +146,29 @@ About Section
     height: 300px;
     width: 200px;
     background-size: cover;
-    background-position: center;
 }
 
 .saayan {
-    width: 100%;
-    height: auto;  
+    border: 1px solid;
+    border-radius: 50%;  
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.about-text {
+    height: auto;
+    width: 40%;
+    font-size: 1rem;
+    margin-right: 100px;
+    position: absolute;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    width: 30%;
+    margin: 25% 35%;
 }
